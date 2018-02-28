@@ -1,0 +1,21 @@
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\Counting Bisa.exe.config
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\Counting Bisa.exe
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\Counting Bisa.pdb
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\MySql.Data.dll
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\MySql.Data.xml
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.csprojResolveAssemblyReference.cache
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\MainWindow.g.cs
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\App.g.cs
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa_MarkupCompile.cache
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa_MarkupCompile.lref
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\MainWindow.baml
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.g.resources
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting_Bisa.Properties.Resources.resources
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.csproj.GenerateResource.Cache
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.csproj.CoreCompileInputs.cache
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.exe
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.pdb
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\Counting Bisa.exe.manifest
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\bin\Debug\Counting Bisa.application
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.exe.manifest
+C:\Users\Multimedia 9\source\repos\Counting Bisa\Counting Bisa\obj\Debug\Counting Bisa.application

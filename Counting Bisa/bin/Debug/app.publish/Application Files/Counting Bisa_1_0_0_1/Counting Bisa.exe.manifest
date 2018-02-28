@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Counting Bisa.exe" version="1.0.0.1" publicKeyToken="77fdf291696be3c3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Counting Bisa" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Counting Bisa.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Counting Bisa.exe" size="184312">
+      <assemblyIdentity name="Counting Bisa" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FCx2Pa5szhrZXOciC41ejZ8dAJ6pE0v6JTxm04NruAc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="396800">
+      <assemblyIdentity name="MySql.Data" version="6.10.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CBQzax127Dbs/Y6bFlOJ+Z/LE1u5dqPy2WJ5azqJAUw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Counting Bisa.exe.config" size="586">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/LNs2167vX2c1TviJ0vx2Nhqxu6RY6goTodjcuDxRq8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Multimedia-9\Multimedia 9" issuerKeyHash="29e100c204bce9a5be9cd0eb82d8022298dcbe4b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>au+DCpohpigo+L0ZN6fRpxcMOPWilFZJ3lsu6lqoGgs=</DigestValue></Reference></SignedInfo><SignatureValue>L1aCFaWBdoHDeW8OmtjRjEKj2+OXF+IypMo3kp6J7uUeHMNxHefoGlCzbXahG9R0U7QBdvH7VyLON8oissBwYl7nh8J6ycIRrEt+bE5841FmLOglUD2fRpBot0Ahc7L7DCmsuTVXSlMS08PHmCprU9rWmBaZn0MHvFoRg3JzlQQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ukoP1bE9PTnljnxnrH9R5OyyPXiYXeeYfyJPdtpsBEnO/jjDzcvBw4ugQFB5Lmh53CqkS5LirlOaGpJs25mndLoVP5qi1+olrnJlPWYjZqcO4PGDUhV1cpsu5wqESPWzeuFmJAhk5PJOnF4sjE7ZqneenaOGSiFR73iwFZNHXoE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0b1aa85aea2e5bde495694a2f5380c17a7d1a73719bdf82828a6219a0a83ef6a" Description="" Url=""><as:assemblyIdentity name="Counting Bisa.exe" version="1.0.0.1" publicKeyToken="77fdf291696be3c3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Multimedia-9\Multimedia 9</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nHHcWA22nIJgaw9/5kjetbQ1+W09uTxRNB0ihC2JGik=</DigestValue></Reference></SignedInfo><SignatureValue>Z8lFWKzY0gc0e6Y6Y+YjGwvG7+nNRAzQ7ZY/HK3ilU7tQbnOTU6wh/uqvgtcYIyQk7OW06YNZb0OQ120OlxpQPDAP/mqD9IGTe5CwyZiSlwafYoQX8m8yEqwJI4g5Hm1JyEB7zomlHxrXIL7TOnvrGgI0G5M6eMwi8pv8r0v60g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ukoP1bE9PTnljnxnrH9R5OyyPXiYXeeYfyJPdtpsBEnO/jjDzcvBw4ugQFB5Lmh53CqkS5LirlOaGpJs25mndLoVP5qi1+olrnJlPWYjZqcO4PGDUhV1cpsu5wqESPWzeuFmJAhk5PJOnF4sjE7ZqneenaOGSiFR73iwFZNHXoE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQL3a3S+byzLxGgaMcIoIifTANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIATQB1AGwAdABpAG0AZQBkAGkAYQAtADkAXABNAHUAbAB0AGkAbQBlAGQAaQBhACAAOTAeFw0xODAxMzAxODEzNDhaFw0xOTAxMzEwMDEzNDhaMD0xOzA5BgNVBAMeMgBNAHUAbAB0AGkAbQBlAGQAaQBhAC0AOQBcAE0AdQBsAHQAaQBtAGUAZABpAGEAIAA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6Sg/VsT09OeWOfGesf1Hk7LI9eJhd55h/Ik922mwESc7+OMPNy8HDi6BAUHkuaHncKqRLkuKuU5oakmzbmad0uhU/mqLX6iWucmU9ZiNmpw7g8YNSFXVymy7nCoRI9bN64WYkCGTk8k6cXiyMTtmqd56do4ZKIVHveLAVk0degQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACI+e2fF/cGqfvQ/LsjvN06iJBZNaskTGLrBrLu/pBzLla8dfegK2YXNzWCRcDBKLcDCoQsVY/AdNqCibsjPGtVa70N1yH0C9+PB8a/ojL4DS3dGjpk5mK2Wj11ol2657I3ba1dOjm3gYRDYIy7KXAHgKlr3d3Q94iXZpuJ0oTKd</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
